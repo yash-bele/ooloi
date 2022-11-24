@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { FaMobileAlt, FaDesktop, FaLongArrowAltRight } from 'react-icons/fa';
+import { FaDesktop } from 'react-icons/fa';
 import { FiAlertTriangle } from 'react-icons/fi';
 import TableComponent from '../components/TableComponent';
 import testTableData from '../testTableData.json';
@@ -52,8 +52,6 @@ const Home = () => (
           Switch to desktop size screen.
         </h1>
         <div className='flex items-center justify-center mt-5'>
-          <FaMobileAlt className='text-5xl text-blue-500' />
-          <FaLongArrowAltRight className='text-4xl text-slate-700 mx-10 ml-9' />
           <FaDesktop className='text-5xl text-blue-500' />
         </div>
       </section>
