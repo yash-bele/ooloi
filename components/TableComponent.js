@@ -114,15 +114,13 @@ const TableComponent = ({ data, tableConfig }) => {
               className={`${j % 2 === 0 && 'bg-[#F5F5F5]'}`}
             >
               {thFilter.some((k) => k[0] === 'name') && (
-                <td>
+                <td className='relative'>
                   <img
                     src={person.avatar}
                     alt={person.name}
-                    className={`inline mr-3 w-[22.15px] ${
-                      j % 2 === 0 && 'bg-[#F5F5F5]'
-                    }`}
+                    className='inline bottom-1.5 absolute'
                   />
-                  {person.name}
+                  <p className='ml-[34px]'>{person.name}</p>
                 </td>
               )}
               {thFilter.some((k) => k[0] === 'city') && <td>{city}</td>}
