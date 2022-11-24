@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+th, td {
+    height: 40px;
+    font-size: 14px;
+    color: #383838;
+    text-align: start;
+    letter-spacing: 0.5px;
+    border: 1px solid #ddd;
+    padding: 8px 10px 8px 10px;
+}
+th {
+    font-weight: 600;
+}
+td {
+    font-weight: 400;
+}
+a {
+    color: #0071CC;
+    text-decoration: underline;
+}
