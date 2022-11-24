@@ -43,7 +43,7 @@ const Home = () => (
       </section>
     </main>
     <main className='absolute w-full h-full flex lg:hidden justify-center items-center'>
-      <section className='-mt-32 shadow-md p-5 rounded-md'>
+      <section className='-mt-32 shadow-md p-5 rounded-md bg-red-50'>
         <FiAlertTriangle className='text-center text-5xl w-full mb-5 text-red-500' />
         <h1 className='font-bold text-center text-base text-slate-700'>
           You are on small screen.
