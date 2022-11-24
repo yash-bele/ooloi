@@ -51,9 +51,9 @@ const Home = () => (
         <h1 className='font-bold text-center text-base text-slate-700'>
           Switch to desktop size screen...
         </h1>
-        <div className='flex items-center justify-center space-x-10 mt-5'>
+        <div className='flex items-center justify-center mt-5'>
           <FaMobileAlt className='text-5xl text-blue-500' />
-          <FaLongArrowAltRight className='text-5xl text-slate-700' />
+          <FaLongArrowAltRight className='text-4xl text-slate-700 mx-10 ml-9' />
           <FaDesktop className='text-5xl text-blue-500' />
         </div>
       </section>
